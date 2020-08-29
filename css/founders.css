@@ -1,0 +1,92 @@
+section
+{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.pktext
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1C768F;
+    font-size: large;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.pkname
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #032539;
+    font-style: italic;
+    font-size: large;
+    
+    padding-top: 10px;
+    text-align: right;
+    font-weight: 600;
+}
+
+
+
+.sstext
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1C768F;
+    font-size: large;
+    
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 40%;
+}
+
+.ssname
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #032539;
+    font-style: italic;
+    font-size: large;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: right;
+}
+
+
+.floatright
+{
+    
+    padding-top: 5%;
+    padding-right: 5%;
+    margin-left: 60%;
+    float: right;
+}
+
+.floatleft
+{
+    
+    padding-top: 15%;
+    padding-left: 5%;
+    float: left;
+}
+
+
+#prades
+{
+    height: auto;
+    padding: 0% 0 0 0;
+    margin:0;
+}
+.timg
+{
+    
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding: 22% 0 0 0;
+}
+
+.bimg
+{
+    width: 100%;
+    position: absolute;
+    height: auto;
+}

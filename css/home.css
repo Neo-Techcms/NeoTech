@@ -1,0 +1,131 @@
+
+div img {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 90vh;
+}
+
+#leftimg
+{
+    float: left;
+}
+
+#rightimg
+{
+    float: right;
+}
+
+#centerban
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+    width: 50%;
+    height: auto;
+}
+
+
+.btn {
+
+    color: #1C7690;
+    cursor: pointer;
+    font-size:15px;
+    font-weight: bold;
+    line-height: 45px;
+    border: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+    max-width: 160px; 
+    text-decoration: none;
+    width: 100%; 
+    
+    
+    @media(min-width: 600px) {
+      margin: 0 1em 2em;
+    }
+}
+
+.btn:hover { 
+    text-decoration: none; }
+
+a
+{
+text-decoration: none;
+}
+
+.infobut {
+    transition: 0.5s;
+
+    letter-spacing: 0;
+}
+.infobut:hover, .infobut:active {
+    transition: 0.5s;
+    letter-spacing: 5px;
+}
+.infobut:after, .infobut:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+.infobut:hover:after, .infobut:hover:before {
+    backface-visibility: hidden;
+    border-color: #032539;
+    transition: width 350ms ease-in-out;
+    
+    width: 70%;
+}
+.infobut:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+}
+
+.infobut:focus
+{
+    outline: 0;
+}
+
+
+footer p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #032539;
+    font-size: small;
+    font-weight: 500;
+    position: fixed; 
+    bottom: 0;
+    float: left;
+    padding-left: 20px;
+    transition: all 0.5s;
+
+}
+
+footer p:hover
+{
+    color: #1C7690;
+    cursor: default;
+    transition: all 0.5s;
+}
+
+
+
+#botrig
+{
+    
+    position: fixed;
+    bottom: 0;
+    margin-left: 84%;
+}
+

@@ -1,0 +1,119 @@
+form
+{
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: 3% 0 0 35%;
+}
+
+
+
+#common
+{
+    padding-top: 5%;
+
+}
+
+#common input, textarea
+{
+    margin-left: 10%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    
+}
+
+
+
+input:focus
+{
+    outline: 0;
+}
+
+
+
+textarea:focus
+{
+    outline: 0;
+    resize: none;
+}
+
+
+input[type="text"], textarea
+{
+    
+    box-shadow:  inset 2px 2px 5px #fff, inset 5px 5px 10px #BABECC;
+    box-sizing: border-box;
+    border:none;
+  appearance: none;
+  -webkit-appearance: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+
+input[type="text"]:focus,textarea:focus,input[type="email"]:focus
+{
+    box-shadow:  inset 1px 1px 2px #fff, inset -1px -1px 2px #BABECC;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="email"]
+{
+    box-shadow:  inset 2px 2px 5px #fff, inset 5px 5px 10px #BABECC;
+    appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+
+form label
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.shortwid input
+{
+    width: 70px;
+}
+
+.btn
+{
+    margin: 4% 0 0 15%;
+    border: 2px solid #032539;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    color: #1C7690;
+    transition: 0.5s ease-in-out;
+
+}
+
+.feedinp input
+{
+    height: 100px;
+}
+
+.btn:hover
+{
+    border: 2px solid #1C7690;
+    color: #032539  ;
+    transition: 0.5s ease-in-out;
+}
+.btn :focus
+{
+    outline: 0;
+}
